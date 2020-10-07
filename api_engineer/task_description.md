@@ -12,4 +12,4 @@ Also, the results of the simulation needs to be reported asynchronously whenever
 
 Finally, a Dockerfile has to be created that would install all the dependencies automatically and serve the API once the container is started. 
 
-In order to submit your solution to this task a fork of this repo has to be created. 
+In order to submit your solution to this task a fork of this repo has to be created, and the solution can be committed to the fork. 

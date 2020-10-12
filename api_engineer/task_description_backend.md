@@ -3,9 +3,9 @@ You need to create a script that will run a simple power flow calculation using 
 
 The API needs to expose 3 endpoints:
 
-    POST request that launches the simulation using the aforementioned Python module. The response should include the active and reactive power of the load in JSON format
-    GET request that reads the active power of the previously executed simulation
-    GET request that reads the reactive power of the previously executed simulation
+- POST request that launches the simulation using the aforementioned Python module. The response should include the active and reactive power of the load in JSON format
+- GET request that reads the active power of the previously executed simulation
+- GET request that reads the reactive power of the previously executed simulation
 
 You can use any Python framework you like for the REST API (Flask, DRF, Bottle). Bonus points if you use a database that persists the results of the past simulation runs. Extra bonus points if you use GraphQL instead of REST for implementing the API.
 

@@ -6,7 +6,7 @@ You need to create a service that interacts with a blockchain using smart contra
 
 THe REST API should be implemented in Python. You can use any Python framework you like for the REST API (Flask, DRF, Bottle).
 
-For the blockchain part, you should use the Substrate framework for creating a private blockchain, running locally with only one node. A smart contract should be written in Ink in order to handle the operations of read/write of the trade objects to the database. 
+For the blockchain part, you should use the Substrate framework for creating a private blockchain, running locally with only one node. A smart contract should be written in Ink in order to handle the operations of read/write of the trade objects to the blockchain. 
 
 Finally, Docker/Docker Compose has to be used in order to install all the dependencies automatically and serve the API once the container is started. 
 
